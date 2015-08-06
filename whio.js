@@ -706,6 +706,10 @@ var Whio = (function(){
 	}	
 	
 	makeGlobal(run,keyIsDown,fillCircle);
+	makeGlobal(fillRectangle,drawCircle,drawRectangle,drawLine,clear,print,setColor,setColour,noise2d,noise3d);
+	makeGlobal(loadImage,drawImage,rgb,setRgb,setBackground);
+
+	
 	return API;
 })();
 
