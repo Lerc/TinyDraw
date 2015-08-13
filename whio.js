@@ -705,11 +705,11 @@ var Whio = (function(){
 		return SimplexNoise.default.noise3d(x,y,z);
 	}	
 	
-	makeGlobal(run,keyIsDown,fillCircle);
-	makeGlobal(fillRectangle,drawCircle,drawRectangle,drawLine,clear,print,setColor,setColour,noise2d,noise3d);
-	makeGlobal(loadImage,drawImage,rgb,setRgb,setBackground);
-
-	
+	makeGlobal(
+		log,drawImageData,print,clear,setPixel,makeBackground,setColour,drawLine,drawCircle,fillCircle,drawRectangle,fillRectangle,loadImage,
+		drawImage,drawImageRect,canvasSave,canvasRestore,canvasTransform,canvasTranslate,canvasRotate,canvasScale,drawPolygon,fillPolygon,
+		distance,rgb,grey,setRgb,setGrey,random,stringify,setColor,keyIsDown,keyWentDown,getMousePosition,getMouseInfo,run,setInfo,noise2d,noise3d);
+		
 	return API;
 })();
 
