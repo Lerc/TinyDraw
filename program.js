@@ -28,4 +28,6 @@ function update() {
 
 
 
+print("Draw with the arrow keys");
+
 run(update);
