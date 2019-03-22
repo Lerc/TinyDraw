@@ -1,5 +1,5 @@
-var cx = 320;
-var cy = 240;
+let cx = 320;
+let cy = 240;
 
 function update() {
   //37 is the key code of the left arrow key
