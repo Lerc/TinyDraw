@@ -12,12 +12,12 @@ function update() {
     cx+=1;
   }
   
-  //37 is the key code of the left arrow key
+  //38 is the key code of the up arrow key
   if ( keyIsDown(38) ) {
     cy-=1;
   }  
 
-  //39 is the key code of the right arrow key
+  //40 is the key code of the down arrow key
   if ( keyIsDown(40) ) {
     cy+=1;
   }  
